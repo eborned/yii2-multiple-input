@@ -1,5 +1,5 @@
 {
-    "name": "unclead/yii2-multiple-input",
+    "name": "eborned/yii2-multiple-input",
     "description": "Widget for handle multiple inputs for an attribute of Yii2 framework model",
     "keywords": [
         "yii2", 
@@ -8,16 +8,16 @@
         "yii2 multiple field"
     ],
     "type": "yii2-extension",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/unclead/yii2-multiple-input/issues?state=open",
-        "source": "https://github.com/unclead/yii2-multiple-input"
+        "issues": "https://github.com/eborned/yii2-multiple-input/issues?state=open",
+        "source": "https://github.com/eborned/yii2-multiple-input"
     },
     "authors": [
         {
             "name": "Eugene Tupikov",
-            "email": "unclead.nsk@gmail.com"
+            "email": "eborned.nsk@gmail.com"
         }
     ],
     "require": {
@@ -27,8 +27,8 @@
     },
     "autoload": {
         "psr-4": {
-          "unclead\\widgets\\examples\\": "examples/",
-          "unclead\\widgets\\": "src/"
+          "eborned\\widgets\\examples\\": "examples/",
+          "eborned\\widgets\\": "src/"
         }
     }
 }
