@@ -323,7 +323,7 @@ class MultipleInput extends InputWidget
     private function getInputNamePrefix($name)
     {
         if ($this->hasModel()) {
-            if (empty($this->columns) || (count($this->columns) == 1 && $this->model->hasProperty($name))) {
+            if (empty($this->columns) || (count($this->columns) == 1 && $this->model->hasAttribute($name))) {
                 return $this->model->formName();
             }
             return Html::getInputName($this->model, $this->attribute);
